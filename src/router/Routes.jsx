@@ -17,12 +17,10 @@ export const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        /* Future-proof Timeline route */
         path: "Timeline", 
         element: <Timeline />, 
       },
       {
-        /* Dynamic route for individual friend details */
         path: "friend/:id", 
         element: <Details />
       },
