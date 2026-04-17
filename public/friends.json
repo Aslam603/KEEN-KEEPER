@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://i.pravatar.cc/150?u=1",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "Overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Jenkins",
+    "picture": "https://i.pravatar.cc/150?u=2",
+    "email": "sarah.j@outlook.com",
+    "days_since_contact": 2,
+    "status": "On Track",
+    "tags": ["work", "mentor"],
+    "bio": "Former manager at TechCorp. Great for career advice.",
+    "goal": 30,
+    "next_due_date": "2026-05-15"
+  },
+  {
+    "id": 3,
+    "name": "Naomi Wattson",
+    "picture": "https://i.pravatar.cc/150?u=naomi",
+    "email": "nwattson@academia.edu",
+    "days_since_contact": 55,
+    "status": "Overdue",
+    "tags": ["university", "study buddy"],
+    "bio": "Ph.D. student in Astrophysics. We survived Calc II together.",
+    "goal": 30,
+    "next_due_date": "2026-02-20"
+  },
+  {
+    "id": 4,
+    "name": "Elena Rodriguez",
+    "picture": "https://i.pravatar.cc/150?u=4",
+    "email": "elena.rod@provider.com",
+    "days_since_contact": 8,
+    "status": "Almost Due",
+    "tags": ["gym", "hobby"],
+    "bio": "Spin class partner. Always keeps me motivated.",
+    "goal": 7,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "picture": "https://i.pravatar.cc/150?u=5",
+    "email": "dave.wilson@web.com",
+    "days_since_contact": 5,
+    "status": "On Track",
+    "tags": ["gaming"],
+    "bio": "Met online. We play RPGs every Tuesday night.",
+    "goal": 7,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 6,
+    "name": "Aisha Khan",
+    "picture": "https://i.pravatar.cc/150?u=6",
+    "email": "akhan.dev@company.com",
+    "days_since_contact": 20,
+    "status": "Almost Due",
+    "tags": ["professional", "networking"],
+    "bio": "Brilliant UI designer. Met at a local meetup.",
+    "goal": 21,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 7,
+    "name": "Tom Baker",
+    "picture": "https://i.pravatar.cc/150?u=7",
+    "email": "t.baker@service.com",
+    "days_since_contact": 60,
+    "status": "Overdue",
+    "tags": ["extended family"],
+    "bio": "Cousin from out of town. Needs more check-ins.",
+    "goal": 30,
+    "next_due_date": "2026-02-15"
+  },
+  {
+    "id": 8,
+    "name": "Lisa Wong",
+    "picture": "https://i.pravatar.cc/150?u=8",
+    "email": "lisa.wong@edu.com",
+    "days_since_contact": 1,
+    "status": "On Track",
+    "tags": ["best friend", "travel"],
+    "bio": "The person I call for everything. Travel buddy.",
+    "goal": 3,
+    "next_due_date": "2026-04-20"
+  }
+]
