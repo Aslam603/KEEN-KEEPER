@@ -1,5 +1,4 @@
 import { createBrowserRouter } from 'react-router'; 
-
 import NotFoundPage from '../pages/NotFoundPage/NotFoundPage';
 import HomePage from '../pages/homepage/homepage';
 import Stats from '../pages/Stats/Stats';
@@ -18,15 +17,15 @@ export const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
+        /* Future-proof Timeline route */
         path: "Timeline", 
-        element: <Timeline />,
+        element: <Timeline />, 
       },
-
-     {
-        path : "/Timeline/id",
-        element : <Details></Details>
-     },
-
+      {
+        /* Dynamic route for individual friend details */
+        path: "friend/:id", 
+        element: <Details />
+      },
       {
         path: "Stats",
         element: <Stats />,
