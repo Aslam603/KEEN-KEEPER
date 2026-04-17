@@ -7,6 +7,7 @@ import RootLayout from './layout/RootLayout';
 import Timeline from './pages/Timeline/Timeline';
 import Stats from './pages/Stats/Stats';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
+import HomePage from './pages/homepage/homepage';
 const router= createBrowserRouter(
 
 [
@@ -17,7 +18,7 @@ const router= createBrowserRouter(
 {
 
       index: true,
-      element: <h2>Homepage</h2>,
+      element:<HomePage></HomePage>
 
 },
 {
