@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router'; 
 import NotFoundPage from '../pages/NotFoundPage/NotFoundPage';
-import HomePage from '../pages/homepage/homepage';
+import HomePage from '../pages/HomePage/HomePage';
 import Stats from '../pages/Stats/Stats';
 import Timeline from '../pages/Timeline/Timeline';
 import RootLayout from '../layout/RootLayout';
